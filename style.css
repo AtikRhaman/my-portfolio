@@ -1,0 +1,1525 @@
+/*-----------------------------------------------------------------------------------
+    Template Name: Bolse
+    Template URL: http://ideaz13.com/
+    Description: This is html5 template
+    Author: uXpart
+    Author URI: http://ideaz13.com/
+    Version: 1.0
+-----------------------------------------------------------------------------------    
+    CSS INDEX
+    =================== 
+    1. Theme Default CSS (body, link color, section etc)
+       1.1 Top Header CSS (top-header, shirnk menu, Humburger, social Icon)
+       1.2 Banner Area CSS (modal video, video-title)
+       1.3 Service Area CSS
+       1.4 Portfolioes Area CSS 
+       1.5 Process Area CSS
+       1.6 Sucess Area CSS
+       1.7 Team Area CSS
+       1.8 Client Sayes CSS
+       1.9 Brand Area CSS
+       1.10 Creative Blog CSS
+       1.11 Contact CSS
+       1.12 Google Map CSS
+       1.13 Footer Area CSS
+    2. Blog
+       2.1 Blog Banner CSS
+       2.2 Blog Nav CSS
+       2.3 Pagination Nav CSS
+    =================== 
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1. Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%; color: $primary-color;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;
+  color: #888;
+  font-size: 14px;
+  line-height: 2;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+a {-webkit-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+  list-style: outside none none;
+  margin: 0;
+  padding: 0
+}
+.clear{clear:both}
+body {
+  font-family: 'Montserrat', sans-serif; 
+}
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+.container{
+  width: 1170px;
+}
+.no-border-r{
+  border-right: 0px;
+}
+.m-bt-30{
+  margin-bottom: 30px;
+}
+.m-bt-20{
+  margin-bottom: 20px;
+}
+.margin-0{
+  margin: 0;
+}
+
+/*button*/
+.button-com {
+    border: 1px solid #ccc;
+    background:  transparent;
+    color:  orange;
+    padding: 14px 60px;
+    border-radius: 4px;    
+}
+
+.btn-center {
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+.btn {
+  -moz-user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.42857;
+  margin: 10px 0;
+  padding: 14px 50px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  background: #fff;
+/*  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
+*/  min-width: 210px;
+}
+.btn-red {
+  background-color: #ef5350 !important;
+  color: #fff;
+}
+.btn-red:hover {
+  color: #fff;
+}
+.btn-grey {
+  color: #ef5350;
+  background-color:#333;
+}
+.btn-grey:hover {
+  background-color: #ef5350;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/*----------------------------------------*/
+/*  1.1  Top Header CSS (top-header, shirnk menu, Humburger, social Icon)
+/*----------------------------------------*/
+
+/*top-header*/
+.header-area{
+  position: relative;
+}
+.brand{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+  color: #fff;
+  letter-spacing: 2px;
+  position: absolute;
+  z-index: 50000;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; 
+  width: 60px;
+  top:7px;
+  left: 0;
+}
+.main-nav> a:hover, a:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+.hamburger-right{
+  float: left; 
+  margin: 0 80px;
+}
+/*shirnk menu*/
+header {
+  float: left;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  padding: 45px 0;
+  display: block;
+}
+header a {
+  color: #969696;
+  text-decoration: none; 
+  text-transform: uppercase;
+  font-size: 1em;
+}
+header a.active, header a:hover {
+  color: #3d3d3d;
+}
+header li {
+  margin-right: 12px;
+}
+/* header large */
+header.large {
+ padding: 0 0 10px 0;
+ background-color: rgb(255, 255, 255);
+ -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+         box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+}
+header.small {
+  padding: 0 0 40px 0;
+  background-color: rgb(245, 245, 245);
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
+}
+header.small .brand {
+  width: 60px;
+  height: 60px;
+  padding: 0 0 16px 0;
+  /* transition: .7s all;
+  -moz-transition: .7s all;
+  -webkit-transition: .7s all;
+  -o-transition: .7s all;*/
+}
+/* Transitions */
+header,
+nav,
+a,
+img,
+li {
+  transition: .7s all;
+  -moz-transition: .7s all;
+  -webkit-transition: .7s all;
+  -o-transition: .7s all;
+}
+/*Menu*/
+/*ul {
+  float: right;
+}*/
+li {
+  display: inline;
+}
+img.logo {
+  float: left;
+}
+.main-nav{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 12px;
+  position: relative;  
+}
+
+.hamburger-menu{
+  margin: 12px 0 0 0;
+}
+
+/*Humburger*/
+/*.msg {
+  font-family: 'Pacifico', cursive;
+  font-size: 8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  align-items: center;
+  color: #FEFEFE;
+  background-color: #1184F0;
+}
+.drawer-list {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  transform: translate(100vw, 0);
+  -ms-transform: translatex(-100vw);
+  box-sizing: border-box;
+  padding: 22% 8%;
+  transition: width 475ms ease-out, transform 450ms ease, border-radius .8s .1s ease;
+  border-bottom-left-radius: 100vw;
+  background:rgba(31, 31, 31, 1) none repeat scroll 0 0;
+}
+.drawer-list ul {  
+  margin: -15px;
+  padding: 0;
+  overflow: auto;
+  overflow-x: hidden;
+  pointer-events: auto;
+  float: left;
+}
+.drawer-list li {
+  list-style: none;
+  text-transform: uppercase;
+  pointer-events: auto;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transform: translatex(100vw);
+  -ms-transform: translatex(-100vw);
+}
+.drawer-list li a {
+  text-decoration: none;
+  color: #8E8E8E;
+  text-align: left;
+  display: block;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.drawer-list li a:hover {
+  cursor: pointer;
+  color: #fff;
+  text-shadow: 2px 2px 8px #000;
+ }
+input.hamburger {
+  display: none;
+}
+input.hamburger:checked ~ .drawer-list {
+  transform: translatex(0);
+  border-bottom-left-radius: 0;
+}
+input.hamburger:checked ~ .drawer-list li {
+  transform: translatex(0);
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(1) {
+  transition: transform 0.5s 0.02s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(2) {
+  transition: transform 0.5s 0.04s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(3) {
+  transition: transform 0.5s 0.06s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(4) {
+  transition: transform 0.5s 0.08s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(5) {
+  transition: transform 0.5s 0.1s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(6) {
+  transition: transform 0.5s 0.12s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(7) {
+  transition: transform 0.5s 0.14s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(8) {
+  transition: transform 0.5s 0.16s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(9) {
+  transition: transform 0.5s 0.18s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(10) {
+  transition: transform 0.5s 0.2s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(11) {
+  transition: transform 0.5s 0.22s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(12) {
+  transition: transform 0.5s 0.24s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(13) {
+  transition: transform 0.5s 0.26s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(14) {
+  transition: transform 0.5s 0.28s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(15) {
+  transition: transform 0.5s 0.3s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(16) {
+  transition: transform 0.5s 0.32s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(17) {
+  transition: transform 0.5s 0.34s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(18) {
+  transition: transform 0.5s 0.36s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(19) {
+  transition: transform 0.5s 0.38s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(20) {
+  transition: transform 0.5s 0.4s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(21) {
+  transition: transform 0.5s 0.42s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(22) {
+  transition: transform 0.5s 0.44s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(23) {
+  transition: transform 0.5s 0.46s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(24) {
+  transition: transform 0.5s 0.48s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(25) {
+  transition: transform 0.5s 0.5s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(26) {
+  transition: transform 0.5s 0.52s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(27) {
+  transition: transform 0.5s 0.54s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(28) {
+  transition: transform 0.5s 0.56s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(29) {
+  transition: transform 0.5s 0.58s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(30) {
+  transition: transform 0.5s 0.6s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(31) {
+  transition: transform 0.5s 0.62s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(32) {
+  transition: transform 0.5s 0.64s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(33) {
+  transition: transform 0.5s 0.66s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(34) {
+  transition: transform 0.5s 0.68s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(35) {
+  transition: transform 0.5s 0.7s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(36) {
+  transition: transform 0.5s 0.72s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(37) {
+  transition: transform 0.5s 0.74s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(38) {
+  transition: transform 0.5s 0.76s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(39) {
+  transition: transform 0.5s 0.78s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(40) {
+  transition: transform 0.5s 0.8s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(41) {
+  transition: transform 0.5s 0.82s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(42) {
+  transition: transform 0.5s 0.84s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(43) {
+  transition: transform 0.5s 0.86s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(44) {
+  transition: transform 0.5s 0.88s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(45) {
+  transition: transform 0.5s 0.9s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(46) {
+  transition: transform 0.5s 0.92s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(47) {
+  transition: transform 0.5s 0.94s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(48) {
+  transition: transform 0.5s 0.96s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(49) {
+  transition: transform 0.5s 0.98s ease;
+}
+input.hamburger:checked ~ .drawer-list li:nth-child(50) {
+  transition: transform 0.5s 1s ease;
+}
+input.hamburger:checked ~ label > i {
+  background-color: transparent;
+  transform: rotate(90deg);
+}
+input.hamburger:checked ~ label > i:before {
+  transform: translate(-50%, -50%) rotate(315deg);
+}
+input.hamburger:checked ~ label > i:after {
+  transform: translate(-50%, -50%) rotate(-315deg);
+}
+input.hamburger:checked ~ label close {
+  color: #FEFEFE;
+  width: 100%;
+}
+input.hamburger:checked ~ label open {
+  color: transparent;
+  width: 0;
+}
+label.hamburger {
+  z-index: 9999;
+  position: relative;
+  display: block;
+  height: 38px;
+  width: 26px;
+}
+label.hamburger:hover {
+  cursor: pointer;
+}
+label.hamburger text close,
+label.hamburger text open {
+  text-transform: uppercase;
+  font-size: .8em;
+  text-align: center;
+  position: absolute;
+  transform: translateY(50px);
+  text-align: center;
+  overflow: hidden;
+  transition: width .25s .35s, color .45s .35s;
+}
+label.hamburger > i {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  top: 50%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  pointer-events: auto;
+  transition-duration: .35s;
+  transition-delay: .35s;
+}
+label.hamburger > i:before, label.hamburger > i:after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  left: 30%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  content: "";
+  transition: transform 0.35s;
+  transform-origin: 50% 50%;
+}
+label.hamburger > i:before {
+  transform: translate(-50%, -8px);
+}
+label.hamburger > i:after {
+  transform: translate(-50%, 8px);
+}
+*/
+/*social Icon*/
+.social-area{
+  height: 160px;
+  overflow: hidden;
+  position: relative;
+}
+ul.social-icon{
+  float: right;
+  position: absolute;
+  bottom: 6%;
+  right:0;
+}
+ul.social-icon li{
+ margin: 0; 
+ padding: 0 13px;
+}
+ul.social-icon li:last-child {
+  margin: 0;
+  padding: 0;
+}
+ul.social-icon li a i:hover{
+ color: rgba(244, 70, 22, 0.7);
+ transition: all 0.3s ease 0s;text-decoration:none;
+}
+.social-icon > li {
+  display: block;
+  float: left;
+  list-style: outside none none;    
+}
+/*----------------------------------------*/
+/*  1.2  Banner Area CSS (modal video, video-title)
+/*----------------------------------------*/
+/*banner area*/
+.banner-area {
+  position: relative; 
+  z-index: 1;
+  height: 666px;
+  background: url("img/banner-img.jpg") no-repeat scroll center center /cover ;;
+}
+.banner-area::after {
+ /* background-color: #000000;  */
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  opacity: 0.45;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 3;
+}
+/*video-title*/
+.video-title {
+  position: absolute;
+  top: 60%;
+  left: 0%;
+  width: 100%;
+  z-index: 4;
+}
+.video-title h2 {
+  color: rgba(0, 0, 0, .80);
+  font-size: 42px;
+  line-height: 1.2;
+}
+.video-title i{
+  font-size: 60px;
+  color: #fff;
+}
+.video-title a:hover{
+  color: #ccc;
+}
+.icon-circel i{
+  border-radius: 50%;
+  border: 2px  rgba(0, 0, 0, .80);
+  font-size: 26px;
+  text-align: center;
+  padding: 10px 8px 10px 12px;
+  float: left;
+}
+.icon-circel i:hover{
+  background: rgba(0, 0, 0, .80);
+  color: #f5734f;
+  border: 2px solid rgba(0, 0, 0, .80);
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;text-decoration:none;
+}
+.icon-circel {
+  margin-top: 50px;
+}
+.icon-circel p{
+  float: left;
+  padding: 12px 14px 14px 14px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/*modal video*/
+.trans {
+    width: 100px;
+    height: 100px;
+    background: #ff9c2f;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    display: block;
+    float: left;
+    padding:10px;
+    margin-left: 10px;
+} 
+.trans:hover{
+    background: #b25cda;
+}
+
+.bannerone{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    background: #e6b823;
+}
+/*----------------------------------------*/
+/*  1.3 Service Area CSS
+/*----------------------------------------*/
+.service-area{
+  background: #fff;
+}
+.heading-area{
+  padding: 110px 0 36px 0;
+}
+.heading h2{
+ text-transform: uppercase;
+ font-size: 30px;
+ text-align: center;
+}
+.heading h4 span {
+  color: rgba(244, 70, 22, 0.7);
+  letter-spacing: 4px;
+  }
+  .heading h4 {
+  color:#666666;
+  letter-spacing: 0px;
+  }
+.heading-details {
+  margin-top: 5px;
+  line-height: 34px;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+.details-area {
+  padding-bottom: 90px;
+}
+.single-item {
+  margin: 40px 0 0 0;
+}
+.single-item i{
+  font-size: 44px;
+  color: #3d3d3d;
+}
+.single-item > h4{
+  text-transform: uppercase;
+  text-align: left;
+  padding: 20px 0  4px 0;
+  letter-spacing: 2px;
+}
+.single-item p{
+  text-align: left;
+  line-height: 26px;
+  color: #5e5e5e;
+  font-weight: 400;  
+}
+/*----------------------------------------*/
+/*  1.4 Portfolioes Area CSS
+/*----------------------------------------*/
+.portfolioes-area{
+  background: #f8f8f8;
+  overflow: hidden;
+}
+.portfolio-holder {
+  margin: 0 -10px;
+  overflow: hidden;
+}
+.portfolio-holder > .col-md-2{
+  width: 20%;
+  padding: 10px;
+}
+.single_our_work{
+  text-align: center;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  background: rgba(0,0,0, 0.0);
+}
+.single_our_work img{
+  width: 100%;
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  border-radius: 5px 5px 0 0;
+}
+.single_our_work figure{
+  margin-bottom: 10px; 
+  border-radius: 5px;
+ }
+.sing_work_text_link{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  color: #fff;
+  background: rgba(0,0,0, 0.5);
+  border-radius: 5px 5px 0px 0px;
+  -webkit-transition: .5s;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  visibility: hidden;
+}
+.single-work-wrap{
+  border-radius: 5px;
+  margin: 15px 0;
+}
+.sing_work_content_wrap{
+  display: table;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+.sing_work_content{
+  display: table-cell;
+  vertical-align: middle;
+}
+.sing_link_img a {
+  color: #fff;
+  display: inline-block;
+  font-size: 34px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.sing_link_img a:hover{ 
+  color: #ccc;
+}
+.single_our_work:hover  .sing_link_img a.search{
+  -webkit-animation: slideInDown 800ms ease-in-out;
+          animation: slideInDown 800ms ease-in-out;
+}
+.single_our_work:hover  .sing_link_img a.link{
+  -webkit-animation: slideInDown 800ms ease-in-out;
+          animation: slideInDown 800ms ease-in-out;
+}
+.single_our_work:hover{
+  background: #fff;
+  color: #fff;
+  border-radius: 5px;
+}
+.single_our_work:hover .sing_work_text_link{
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  visibility: visible;
+}
+.load-item {
+    display: none;
+}
+.load-more {
+    margin: 40px 0 0;
+    text-align: center;
+}
+.portfolio-details{
+  padding: 5px 15px 5px 15px;
+  text-align: left;
+}
+.portfolio-details h4{
+  color: #333;
+}
+
+.m-shadow{
+  -webkit-box-shadow:  0px 0px 10px 0px rgba(26, 26, 26, 0.2);
+          box-shadow:  0px 0px 10px 0px rgba(26, 26, 26, 0.2);
+  background: #fff;
+  } 
+.m-shadow:hover{
+  -webkit-box-shadow:  0px 10px 30px 0px rgba(26, 26, 26, 0.2);
+          box-shadow:  0px 10px 30px 0px rgba(26, 26, 26, 0.2);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+/*----------------------------------------*/
+/*  1.5 About Area CSS
+/*----------------------------------------*/
+.about-area{
+  background: #fff;
+  padding: 110px 0 110px 0;
+  color:#888 
+}
+.about-area img{
+}
+.skills-item > ul > li {
+    display: block;
+    padding: 1px 0;
+}
+.skills-item h5 {
+  font-weight: bold;
+  color: #888;
+
+} 
+
+/*----------------------------------------*/
+/*  1.5 Process Area CSS
+/*----------------------------------------*/
+.process-area{
+  background: #f8f8f8;
+}
+svg{
+  fill: #000;
+}
+/*----------------------------------------*/
+/*  1.6 Sucess Area CSS
+/*----------------------------------------*/
+.success-area {
+  background: rgba(0, 0, 0, 1);
+  position: relative; 
+  z-index: 1
+}
+.success-area::after {
+  background: rgba(0, 0, 0, 0) url("img/success-bg.jpg") no-repeat scroll center center /cover ;;
+  bottom: 0;
+  content: "";
+  display: block;
+  opacity: 0.4;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.secess-holder > li {
+  border-right: 3px solid #ccc;
+  color: #fff;
+  float: left;
+  margin: 10.6% 0;
+  padding: 0 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.secess-holder > li h1 {
+  font-size: 58px;
+  font-weight: bold;
+}
+.secess-holder > li:last-child {
+  border-right: 0px; 
+}
+/*----------------------------------------*/
+/*  1.7 Team Area CSS
+/*----------------------------------------*/
+.single-team {
+  position: relative;
+  margin: 0 auto;
+  padding: 30px 0 0 0;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+.single-team figure {
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.single-team figure img {
+  position: relative;
+  display: block;  
+}
+.single-team figure figcaption {
+  padding: 2em;
+  color: #fff;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.single-team figure figcaption::before,
+.single-team figure figcaption::after {
+  pointer-events: none;
+}
+.single-team figure figcaption,
+.single-team figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Anchor will cover the whole item by default */
+.single-team figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+.single-team figure h4 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+.single-team figure h4,
+.single-team figure p {
+  margin: 0;
+}
+.single-team figure p {
+  font-size: 68.5%;
+  letter-spacing: 13px;
+}
+/*Effect*/
+figure.effect-zoe figcaption {
+  top: auto;
+  top: 0;
+  left: 0;
+  padding: 1em;  
+  background: rgba(245, 115, 79, 0.8);
+  color: #3c4a50;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  -o-transition: transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+figure.effect-zoe h4 {
+ text-align: center;
+}
+figure.effect-zoe p.icon-links a {
+  color: #3c4a50;
+  font-size: 1.4em;
+}
+figure.effect-zoe:hover p.icon-links a:hover,
+figure.effect-zoe:hover p.icon-links a:focus {
+  color: #252d31;
+}
+figcaption > .caption-details {
+  bottom: 10%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+figcaption >.caption-details h2 a{
+  text-align: center;
+}
+figure.effect-zoe p.icon-links a span::before {
+  padding: 8px 10px;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+figure.effect-zoe h4, i {
+  display: inline-block;
+   color: #fff;
+}
+figure.effect-zoe:hover figcaption{
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+p.icon-links a i:hover{
+  color: rgba(31, 31, 31, 0.7);
+ -webkit-transition: all 0.3s ease 0s;
+ -o-transition: all 0.3s ease 0s;
+ transition: all 0.3s ease 0s;text-decoration:none;
+}
+/*----------------------------------------*/
+/*  1.8 Client Sayes CSS
+/*----------------------------------------*/
+.client-area {
+  background: rgba(0, 0, 0, 1) none repeat scroll 0 0;
+  padding: 110px;
+  position: relative;
+  z-index: 1;
+  line-height: 2;
+  color: #fff;
+  clear: both;
+}
+.client-area::after {
+  background: rgba(0, 0, 0, 0) url("img/client-sayes.jpg") no-repeat scroll center center /cover ;;
+  bottom: 0;
+  content: "";
+  display: block;
+  opacity: 0.3;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.client-sayes{
+  position: relative;
+}
+.single-clint-carousel h4{
+  color: #fff;
+  text-transform: uppercase;
+}
+.single-clint-carousel h4{
+  color: #fff;
+  text-transform: uppercase;
+}
+.single-clint-carousel p {
+  color: #fff;
+  line-height: 30px;
+  font-size: 14px;
+  letter-spacing:1.2px;
+}
+.client-sayes .owl-controls .owl-prev {
+  left: -145px;
+  position: absolute;
+  top: 18px;
+}
+.client-sayes .owl-controls .owl-next {
+  right: -52px;
+  position: absolute;
+  top: 18px;
+}
+/*----------------------------------------*/
+/*  1.9 Brand Area CSS
+/*----------------------------------------*/
+.brand-area {
+  background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+  padding: 55px 92px;
+}
+.brand-single{
+  padding: 15px;
+  cursor: pointer; 
+  -webkit-filter: contrast(0%); /* Safari 6.0 - 9.0 */
+  filter: contrast(0%);
+}
+.brand-single:hover{
+  cursor: pointer;
+  -webkit-filter: none; /* Safari 6.0 - 9.0 */
+  filter: none;
+  -webkit-transform: scale(1.1,1.1);
+      -ms-transform: scale(1.1,1.1);
+          transform: scale(1.1,1.1);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/*----------------------------------------*/
+/*  1.10 Creative Blog CSS
+/*----------------------------------------*/
+/*.clreative-blog-area{
+  background: #f8f8f8 none repeat scroll 0 0;
+  height: auto;
+  overflow: hidden;
+}
+.cleative-blog-area .row {
+ margin-right: 0;
+}
+.blog{
+  background: #fff;
+  padding-bottom: 0 !important;
+}
+.blog-row1{
+  clear: both;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.blog-row2{
+  clear: both;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.blog-red-line{
+  width: 56px;
+  height: 2px;
+  background: #f5734f;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  z-index: 5;
+}
+.blog-img{
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+.blog-details {
+  float: left;
+  height: auto;
+  padding: 4% 31px 0 4%;
+  width: 50%;
+  overflow: hidden;
+}
+.blog-details > h4, h3 {
+  text-transform: uppercase;
+}
+.blog-details > p {
+  color: #95999c;
+  font-size: 14px;
+  line-height: 30px;
+}
+.blog-pagination{
+  padding: 62px 0 120px 0;
+}
+*/
+/*----------------------------------------*/
+/*  New blog CSS
+/*----------------------------------------*/
+.blog-wrapper {
+  overflow: hidden;
+  padding: 25px;
+  border-radius: 7px;
+ /* box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);*/
+ background: #fff;
+}
+.blog-wrapper:hover{
+  -webkit-box-shadow:  0px 10px 30px 0px rgba(26, 26, 26, 0.2);
+          box-shadow:  0px 10px 30px 0px rgba(26, 26, 26, 0.2);
+
+  -webkit-transition: 0.3s;
+
+  -o-transition: 0.3s;
+
+  transition: 0.3s;
+}
+
+.blog-title {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 36px;
+  margin: 25px 0 15px;
+  padding: 0;
+  text-align: left;
+}
+.blog-title a{color:#333; font-size: 17px;}
+.blog-title a:hover{color:#f3474b}
+.meta-info ul li {
+  color: #999;
+  display: inline-block;
+  font-size: 11px;
+  padding: 0 12px;
+  position: relative;
+}
+.meta-info ul li:first-child{padding-left:0}
+.meta-info ul li a{color:#f3474b}
+.meta-info ul li a:hover{color:#444}
+.meta-info ul li::before {
+  border: 1px solid #999;
+  border-radius: 5px;
+  content: "";
+  height: 5px;
+  left: -4px;
+  position: absolute;
+  top: 6px;
+  width: 5px;
+}
+.meta-info ul li:first-child:before{display:none}
+.blog-thumb {
+    overflow: hidden;
+}
+
+/*----------------------------------------*/
+/*  1.11 Contact CSS
+/*----------------------------------------*/
+
+.contact-area {
+  background: #ffffff;
+}
+.contact-area > .details-area h4, h5{
+  text-transform: uppercase;
+  color: #434343;
+}
+.contact-info{
+  margin-top: 10px;
+}
+.contact-info h5 {
+  padding-left: 15px;
+  font-size: 16px;
+}
+.contact-info p{
+  font-size: 15px;
+  line-height: 22px;
+  color: #5e5e5e;
+  padding-left: 15px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+.contact-info i{
+  color: #757575;
+  font-size: 30px;
+}
+.contact-form{
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  color: #555;
+  display: block;
+  font-size: 14px;
+  height: 46px;
+  line-height: 1.42857;
+  padding: 6px 30px;
+  -webkit-transition: border-color 0.15s ease-in-out 0s, -webkit-box-shadow 0.15s ease-in-out 0s;
+  transition: border-color 0.15s ease-in-out 0s, -webkit-box-shadow 0.15s ease-in-out 0s;
+  -o-transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, -webkit-box-shadow 0.15s ease-in-out 0s;
+  width: 100%;
+  margin: 15px 0;
+}
+.contact-form:focus {
+  border-color: #f5734f;
+  outline: 0 none;
+}
+.contact-form-area form > textarea {
+  height: 92px;
+}
+/*----------------------------------------*/
+/*  1.12 Google Map CSS
+/*----------------------------------------*/
+#map {
+    height: 650px;
+}
+/*----------------------------------------*/
+/*  1.13 Footer Area CSS
+/*----------------------------------------*/
+.footer-top{
+  background: #1f1f1f; 
+}
+.footer-brand {
+  color: #fff;
+  display: block;
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin: 40px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer-brand a{
+  color: #fff;  
+}
+
+.footer-brand>p.icon-links{
+   margin-top: 22px;
+}
+
+.footer-brand>p.icon-links> a{
+    padding: 0 10px;
+}
+.footer-buttom {
+  background: #1c1c1c none repeat scroll 0 0;
+  color: #fff !important;
+  font-size: 14px;
+  padding-top: 26px;
+  text-align: center;
+}
+.footer-brand > p.icon-links a i:hover {
+  color: rgba(244, 70, 22, 0.7);
+}
+.footer-color{
+  color: #a0a0a0;
+}
+/*----------------------------------------*/
+/*  2. Blog CSS
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*  2.1 Blog Banner CSS
+/*----------------------------------------*/
+.banner-area-blog {
+  background: rgba(0, 0, 0, 1) ;
+  position: relative; 
+  z-index: 1  
+ }
+.banner-area-blog::after {
+  background: rgba(0, 0, 0, 0) url("img/blog-banner.jpg") no-repeat scroll center center /cover ;;
+  bottom: 0;
+  content: "";
+  display: block;
+  opacity: 0.60;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.blog-inner-content {
+  color: #fff;
+  float: left;
+ }
+.blog-inner-content h1 {
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 45px;
+}
+.bedcrumb {
+  width: 100%;
+  margin: 0 18%;
+}
+.bedcrumb ul{
+  float: none;
+}
+.bedcrumb ul li {
+  float: left;
+  display: block;
+  padding: 0 3px;
+}
+.bedcrumb ul li a {
+  font-size: 20px;
+  color: #fff;
+}
+.bedcrumb ul li a:hover {
+  color: #f5734f;
+}
+/*----------------------------------------*/
+/*  2.2 Blog Nav CSS
+/*----------------------------------------*/
+.blog-nav{
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 8px #ececec;
+          box-shadow: 0px 0px 8px #ececec;
+  width: 100%;
+  color: #fff;
+  }
+.left-nav{
+  float: left;
+}
+.right-nav{
+  float: right;
+}
+.right-nav, .left-nav ul li{
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 30px;
+}
+.right-nav ul li a{
+  color: #666666;
+}
+.left-nav ul li a{
+  color: #666666;
+}
+.left-nav ul li a:hover{
+  color: #f5734f;
+}
+.right-nav ul li a:hover{
+  color: #f5734f;
+}
+/*----------------------------------------*/
+/*  2.3 Pagination Nav CSS
+/*----------------------------------------*/
+.pagination-nav ul li{
+  padding: 30px 10px;
+  display: inline-block;
+  text-align: center;
+}
+.pagination-nav ul{
+  float: none;
+}
+.pagination-nav{
+  display: block;
+  width: 100%;
+  text-align:center;
+  clear: both;
+}
+.pagination-nav ul li i {
+  color: #666666;
+}
+.pagination-nav ul li i:hover{
+  color: #f5734f;
+}
+.pagination-nav ul li a{
+  color: #666666;
+}
+.pagination-nav ul li a:hover{
+  color: #f5734f;
+}
+.w-80{
+  width: 80%;
+  margin: auto;
+}
+/*////////////////////////*/
+/*simple menue*/
+
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #555;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+/* Change the color of links on hover */
+/*.topnav a:hover {
+  color: #ef5350;
+  margin-bottom: 0; 
+}*/
+
+/* Add an active class to highlight the current page */
+/*.active {
+  background-color: #4CAF50;
+  color: white;
+}*/
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+i.fa.fa-bars {
+    color: red;
+    font-size: 28px;
+}
+@media screen and (max-width: 600px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    color: #000;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a:not(:last-child) {
+    float: none;
+    display: block;
+    text-align: left;
+    margin-right: 50px; 
+  }
+}
+
+.topnav>p.icon-links a i{
+  color: #999999;  
+}
+
+p.icon-links{
+  float: right; 
+  position: absolute; 
+  right: 0;
+}
+.page-section {       
+  }
+.topnav a:hover{
+  color: #ef5350;
+}
+
+.topnav > .active {
+        color: #ef5350;
+       }
+
+/*.topnav a:nth-child(5) {
+    float: right;
+    display: block;
+    color: #888;
+    text-align: center;
+    padding: 9px 8px;
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 50px;
+}*/
+/*----------------------------------------*/
+/* CSS END
+/*----------------------------------------
+

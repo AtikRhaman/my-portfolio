@@ -1,0 +1,427 @@
+/* Extra Large Screen :1920px. */
+@media (min-width: 1200px) and (max-width: 1920px)  {
+.container {
+ width: 1200px;
+}
+.drawer-list {
+  padding: 22% 4.35%;
+ }
+ .drawer-list ul {
+ margin: -15px 0 0 10px;
+ }
+}
+/* Normal desktop :992px. */
+@media (min-width: 980px) and (max-width: 1169px) {
+.container{
+		width: 980px;
+}
+.drawer-list ul {
+	margin: 0px;
+}
+ul.social-icon {
+	right: 0%;
+}
+} 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 1024px) {
+/*menu*/
+.container{
+	width: 650px;
+	overflow: hidden;
+}
+.drawer-list {
+	padding: 22% 0%;
+	top: 0;
+	right: 0;
+}
+.drawer-list ul{
+	margin-left: 0;
+}
+.social-area {
+	height: 271px;
+}
+ul.social-icon {
+	right: 10%;
+}
+.heading h2{
+	font-size: 26px;
+}
+.heading h3{
+	font-size: 20px;
+}
+.heading h4{
+	font-size: 20px;
+}
+.heading p{
+	font-size: 16px;
+}
+.details-area {
+	padding-bottom: 50px;
+}
+.portfolio-holder > .col-md-2{
+  width: 33.33333%;
+  float: left;
+}
+.secess-holder > li h1 {
+	font-size: 35px;
+}
+.secess-holder > li h4 {
+	font-size: 14px;
+}
+.secess-holder > li {
+	margin: 10.6% 11px;
+	padding: 0 5px;
+	border-right: none;
+	float: left;
+}
+.client-sayes .owl-controls .owl-prev {
+	left: 165px;
+	top: 100px;
+}
+.client-sayes .owl-controls .owl-next {
+	right: 165px;
+	top: 100px;
+}
+.client-area {
+	padding: 35px 114px;
+}
+.client-area p{
+	font-size: 13px;
+	line-height: 1.5;
+}
+.portfolio-holder > .col-md-2{
+  width: 33.33333%; 
+}
+.brand-area {
+	padding: 50px 0;
+}
+.blog-details {
+	padding: 27px 31px 0px 15px;
+}
+.blog-red-line {
+	width: 30px;
+	height: 2px;
+}
+.right-nav, .left-nav ul li{
+  padding: 18px;
+}
+.heading-area {
+	padding: 63px 0 20px 0;
+}
+.btn {
+	border-radius: 4px;
+	font-size: 17px;
+	margin: 10px 0;
+	padding: 8px 30px;
+}
+.contact-form {
+	height: 40px;
+	padding: 6px 20px;
+	margin: 15px 0;
+}
+.contact-info p {
+	padding-left: 0px;
+}
+.contact-info h5 {
+	padding: 12px 0 0 0;
+}
+.contact-info {
+	margin-top: 0px;
+}
+.footer-brand {
+	color: #fff;
+	display: block;
+	font-size: 36px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	margin: 30px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+.blog-nav {
+	margin: 30px 0;
+}
+.blog-content {
+	color: #fff;
+	float: left;
+	margin: 312px 15% 200px 15%;
+	padding: 0 63px;
+	text-align: center;
+	font-weight: bold;
+}
+.btn-center {
+	margin: 30px 0px 65px 0;
+}
+.heading-area {
+	padding: 65px 0 10px 0;
+}
+.pagination-nav ul li {
+	padding: 21px 10px;
+}
+.topnav a{
+    padding: 14px 8px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+.heading{
+	margin-top: 40px; 
+}
+
+} 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+.banner-area {
+	height: 500px;
+}
+.drawer-list {
+	width: 100%;
+	padding: 40% 0%;
+}
+.drawer-list ul {
+	margin: 14px 0 0 3px;
+}
+ul.social-icon {
+	float: left; 
+	position: relative;	
+}
+ul.social-icon li {
+	padding: 0 6px;
+}
+ul.social-icon li:first-child {
+	padding: 0 6px 0 0;
+}
+.video-title {
+	top: 60%;
+}
+.video-title h2 {
+	font-size: 22px;
+}
+.venobox_youtube{
+	framewidth: '300px',     
+    frameheight: '100px'
+}
+.icon-circel i {
+	font-size: 24px;
+	padding: 8px 6px 8px 10px;
+}
+.heading h2 {
+	font-size: 16px;
+}
+.heading h4 {
+	font-size: 16px;
+}
+.heading-details {
+	line-height: 30px;
+	font-size: 14px;	
+}
+.heading{
+	margin-top: 80px;
+}
+.social-area{
+	margin-top: 56%;
+	margin-left: 20%;
+}
+.blog-wrapper{
+	margin-bottom: 15px;
+}
+.heading-area {
+	padding: 50px 0 0 0;
+}
+.details-area {
+	padding-bottom: 25px;
+}
+.portfolio-holder > .col-md-2{
+  width: 100%; 
+}
+.portfolio-holder {
+	margin: 25px 15px 0 15px;
+}
+.secess-holder {
+	margin: 30px 0;
+}
+.secess-holder > li h1 {
+	font-size: 30px;
+}
+.secess-holder > li h4 {
+	font-size: 12px;
+}
+.secess-holder > li {
+	margin: 5.5% 11px;
+	padding: 0 2px;
+	border-right: none;
+}
+.single-clint-carousel> .col-sm-3> img{
+	width: 50%;
+}
+.single-clint-carousel h4 {
+	margin-top: 28px;
+}
+.client-area {
+	padding: 50px 0;
+}
+.single-clint-carousel p {
+	font-size: 13px;
+	line-height: 20px;
+}
+.client-sayes .owl-controls .owl-next {
+	right: 21%;
+	position: absolute;
+	bottom: 0;
+	top: 94%;
+}
+.client-sayes .owl-controls .owl-prev {
+	left: 14%;
+	position: absolute;
+	bottom: 0;
+	top: 94%;
+}
+.brand-single {
+	padding: 0px;
+}
+.brand-area {
+	padding: 50px 20px;
+}
+.blog-img {
+	width: 100%;
+	height: auto;
+}
+.blog-details {
+	float: right;
+	padding: 32px 51px 20px 51px;
+	width: 100%;
+	margin-top: 206px;
+}
+.blog-row1 >.blog-details {	
+	padding: 70px 51px 0px 51px;	
+}
+.blog-row2 >.blog-details{
+	margin-top: 0;
+}
+.blog-row2, .blog-row1 >.blog-img{
+	margin:50px 0;
+} 
+.blog-red-line{
+	display: none;
+}
+.blog-img-push {
+    left: 0%;
+    position: absolute;
+  }
+.blog-details-pull{
+ 	right: 0%;
+ 	position: absolute;
+ }
+ .cleative-blog-area .row {
+ margin-right: 0;
+}
+.btn {
+	font-size: 13px;
+	margin: 2px 0;
+	padding: 9px 20px;
+}
+.btn-center {
+	margin: 20px 0;
+}
+.btn-center {
+  text-align: center;
+  margin: 0;
+}
+button.btn.btn-red.m-shadow {
+    min-width: 100%;
+}
+.margin-0{
+  margin: 0;
+}
+.portfolio-holder> .btn-center{
+	margin: 0;
+}
+.contact-info h5 {
+  padding-left: 0px;
+  padding-top: 10px;
+}
+.contact-info p{
+   padding-left: 0px; 
+}
+
+.footer-brand {
+	margin: 40px 0;
+}
+.footer-brand > p.icon-links {
+	margin-top: 8px;
+}
+#map {
+    height: 190px;
+}
+.contact-form {		
+	font-size: 14px;
+	height: 38px;
+	padding: 9px 22px;
+	margin: 15px 0;
+}
+.contact-info {
+	margin-top: 10px;
+}
+.contact-area h4{
+	padding: 25px 0 18px 0;
+}
+.blog-content {
+	float: left;
+	margin:200px 0 200px 0%;
+	padding: 0 0;
+	text-align: center;
+}
+.blog-content h1 {
+	font-weight: normal;
+	font-size: 30px;
+}
+.bedcrumb {
+	margin: 0 18%;
+}
+.right-nav, .left-nav ul li {
+	padding: 14px 20px;
+}
+header.large {
+	padding: 0 0 3px 0;
+}
+.hamburger-right{
+	float: right;
+	margin: 0;
+}
+.topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a:not(:last-child) {
+    float: none;
+    display: block;
+    text-align: left;
+    margin-right: 50px; 
+  }
+  .topnav a{
+  	padding: 14px 8px;
+  }
+} 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 736px) {
+.container {width:450px}
+.drawer-list ul {
+	margin: 47px 0;
+}
+.topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a:not(:last-child) {
+    float: none;
+    display: block;
+    text-align: left;
+    margin-right: 50px; 
+  }
+ 
+}
+ 
